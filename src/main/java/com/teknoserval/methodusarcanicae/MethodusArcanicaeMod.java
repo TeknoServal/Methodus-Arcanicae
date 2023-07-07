@@ -1,6 +1,7 @@
 package com.teknoserval.methodusarcanicae;
 
 import com.mojang.logging.LogUtils;
+import com.teknoserval.methodusarcanicae.block.ModBlocks;
 import com.teknoserval.methodusarcanicae.item.ModCreativeModeTabs;
 import com.teknoserval.methodusarcanicae.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -34,8 +35,9 @@ public class MethodusArcanicaeMod {
         // Register Creative tabs
         ModCreativeModeTabs.register(modEventBus);
 
-        // Register items
+        // Register items and blocks
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

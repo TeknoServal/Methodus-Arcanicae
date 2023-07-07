@@ -1,5 +1,9 @@
 {
   "item.methodusarcanicae.glittering_dust": "Glittering Dust",
   "item.methodusarcanicae.glittersteel_ingot": "Glittersteel Ingot",
+
+  "block.methodusarcanicae.glittersteel_block": "Glittersteel Block",
+  "block.methodusarcanicae.glittering_dust_block": "Glittering Dust Block",
+
   "creativetab.methodus_arcanicae_tab": "Methodus Arcanicae"
 }
