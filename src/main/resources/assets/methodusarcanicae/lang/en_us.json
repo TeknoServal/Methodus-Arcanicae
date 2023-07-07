@@ -1,11 +1,14 @@
 {
   "item.methodusarcanicae.glittering_dust": "Glittering Dust",
   "item.methodusarcanicae.glittersteel_ingot": "Glittersteel Ingot",
+  "item.methodusarcanicae.glittering_wrench": "Glittering Wrench",
 
   "block.methodusarcanicae.glittersteel_block": "Glittersteel Block",
   "block.methodusarcanicae.glittering_dust_block": "Glittering Dust Block",
   "block.methodusarcanicae.glittering_ore": "Glittering Ore",
   "block.methodusarcanicae.deepslate_glittering_ore": "Deepslate Glittering Ore",
 
-  "creativetab.methodus_arcanicae_tab": "Methodus Arcanicae"
+  "creativetab.methodus_arcanicae_tab": "Methodus Arcanicae",
+
+  "item.methodusarcanicae.glittering_wrench.wrenched": " was wrenched"
 }

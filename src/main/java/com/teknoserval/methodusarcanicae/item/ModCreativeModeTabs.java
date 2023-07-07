@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.GLITTERSTEEL_INGOT.get());
                 pOutput.accept(ModBlocks.GLITTERING_DUST_BLOCK.get());
                 pOutput.accept(ModBlocks.GLITTERSTEEL_BLOCK.get());
+                pOutput.accept(ModItems.GLITTERING_WRENCH.get());
             })
             .build());
 
