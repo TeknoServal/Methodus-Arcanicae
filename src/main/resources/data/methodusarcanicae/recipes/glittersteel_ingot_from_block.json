@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "methodusarcanicae:glittersteel_block"
+    }
+  ],
+  "result": {
+    "item": "methodusarcanicae:glittersteel_ingot",
+    "count": 9
+  }
+}
