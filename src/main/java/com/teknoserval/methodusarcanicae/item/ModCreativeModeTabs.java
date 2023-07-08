@@ -19,13 +19,19 @@ public class ModCreativeModeTabs {
             .icon(() -> new ItemStack(ModItems.GLITTERSTEEL_INGOT.get()))
             .title(Component.translatable("creativetab.methodus_arcanicae_tab"))
             .displayItems((pParameters, pOutput) -> {
+
                 pOutput.accept(ModItems.GLITTERING_DUST.get());
+                pOutput.accept(ModBlocks.GLITTERING_DUST_BLOCK.get());
+
                 pOutput.accept(ModBlocks.GLITTERING_ORE.get());
                 pOutput.accept(ModBlocks.DEEPSLATE_GLITTERING_ORE.get());
+
                 pOutput.accept(ModItems.GLITTERSTEEL_INGOT.get());
-                pOutput.accept(ModBlocks.GLITTERING_DUST_BLOCK.get());
                 pOutput.accept(ModBlocks.GLITTERSTEEL_BLOCK.get());
+
                 pOutput.accept(ModItems.GLITTERING_WRENCH.get());
+
+                pOutput.accept(ModBlocks.RUNE_FRAME.get());
             })
             .build());
 
